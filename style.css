@@ -1,0 +1,129 @@
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* fetured section start */
+.container1{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 120px;
+    align-items: center;
+
+}
+.fetured-text-area h1{
+    font-size: 60px;
+}
+/* booking button design */
+#btn1{
+     width: 200px;
+     height: 45px;
+     border-radius: 40px;
+     font-size: 18px;
+     font-weight: bold;
+     background-color: #E02C6D;
+     color: white;
+     border: none;
+}
+.ferured-image{
+    display: flex;
+    width: 475px;
+    height: 475px;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+/* fetured section end */
+
+.produc-section{
+    padding: 20px 200px;
+}
+#trusted-brand{
+    height: 100px;
+    margin: 70px 160px;
+    border-top: 1px solid #C0CCDA;
+    border-bottom: 1px solid #C0CCDA;;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    justify-items: center;
+
+}
+#popular-collection{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    /* justify-items: center; */
+}
+/* all items */
+.box{
+    /* width: 475px; */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 50px gray;
+}
+.item h2{
+    font-size: 30px;
+}
+.box img{
+    width: 100%;
+}
+.fa-star, .fa-star-half-stroke{
+    color: orange;
+    font-size: 14px;
+}
+.yes{
+    color: rgb(13, 117, 13);
+    font-weight: bold;
+}
+.upcoming{
+    color: orange;
+    font-weight: bold;
+}
+.not{
+    color: red;
+    font-weight: bold;
+}
+.collection-heading{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#see-more{
+    text-align: right;
+    color: #E02C6D;
+    font-weight: bold;
+}
+.blog-post{
+    margin: 50px 100px ;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content:space-evenly;
+}
+.blog-post-text{
+    align-self: center;
+}
+#joinbtn{
+    width: 150px;
+    height: 45px;
+    background-color: #E02C6D;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+footer{
+    background-color: rgb(36, 35, 35);
+    text-align: center;
+    color: white;
+}
+.footer-area{
+    padding: 20px;
+}
+.social-design{
+    padding: 0px 10px;
+}
